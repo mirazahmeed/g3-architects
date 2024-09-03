@@ -76,12 +76,13 @@ nav  li a{
 }
 .container{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .features{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .team-img{
     display: grid;
@@ -96,7 +97,7 @@ nav  li a{
     font-size: 2.9rem;
 }
 .teams-description{
-
+    color: #727272;
 }
 
 
@@ -114,8 +115,11 @@ nav  li a{
         flex-direction: column;
     }
     .features{
-       
+       flex-direction: column-reverse;
         
+    }
+    .team-img{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -126,4 +130,8 @@ nav  li a{
     nav{
         flex-direction: column;
     }
+    .features{
+        flex-direction: column-reverse;
+         
+     }
 }
