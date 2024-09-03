@@ -74,6 +74,35 @@ nav  li a{
     width: 100%;
     margin-top: 30px
 }
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    
+    padding: 0 100px 0 100px;
+}
+.teams-title{
+    font-size: 2.9rem;
+}
+.teams-description{
+
+}
+
+
+
+
+
 
 /* responsive Styles */
 
@@ -83,6 +112,10 @@ nav  li a{
     }
     nav{
         flex-direction: column;
+    }
+    .features{
+       
+        
     }
 }
 
